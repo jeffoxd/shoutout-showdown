@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.card.image-full:before {
+  @apply opacity-0;
+}
