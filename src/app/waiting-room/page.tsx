@@ -12,8 +12,8 @@ export default function Page() {
   console.log(quiz);
   return (
     <div className="bg-[url('/images/waiting_room_bg.png')] bg-cover min-h-screen p-24">
-      <span className="text-8xl text-white pl-8">Waiting Room...</span>
-      <div className="grid grid-cols-2 justify-center items-center p-8 pt-36 pl-36">
+      <span className="text-7xl text-white pl-8">Waiting Room...</span>
+      <div className="grid grid-cols-2 justify-center items-center p-8 pt-12">
         <div className="flex-1 flex-col carousel carousel-vertical bg-[#4E66A8] rounded-box h-96 justify-center items-center border-t-[32px] w-4/5 border-t-[#FB735F]">
           <div className="carousel-item h-full">
             <Card className="w-big" onClick={() => {}} />

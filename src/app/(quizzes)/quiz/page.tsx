@@ -17,7 +17,7 @@ export default function Page() {
     ? 1
     : Number(searchParams.get("question"));
 
-  const timerInitial = 30;
+  const timerInitial = 60;
   const [timer, setTimer] = useState(timerInitial);
   const [question, setQuestion] = useState(1);
   const [score, setScore] = useState(0);
@@ -66,7 +66,7 @@ export default function Page() {
     <>
       <div className="flex flex-col">
         <div className="flex flex-row">
-          <span className="text-9xl flex-1 text-white py-24 pl-16">
+          <span className="text-6xl flex-1 text-white py-12 pl-16">
             Question {question}
           </span>
           <div className="relative text-center flex-none">
@@ -74,10 +74,10 @@ export default function Page() {
               className=""
               src="/images/question_timer.png"
               alt="question timer"
-              width={200}
-              height={200}
+              width={150}
+              height={150}
             />
-            <span className="absolute top-0 left-0 text-5xl pt-24 pl-[68px] text-white text-end">
+            <span className="absolute top-0 left-0 text-4xl pt-[70px] pl-[52px] text-white text-end">
               {displayTimer}
             </span>
           </div>
@@ -87,7 +87,7 @@ export default function Page() {
         {question <= 10 && (
           <>
             <span
-              className={`text-6xl text-white ${kollektifBold.className} pl-16`}
+              className={`text-4xl text-white ${kollektifBold.className} pl-16`}
             >
               {jsonFile[question - 1].question}
             </span>

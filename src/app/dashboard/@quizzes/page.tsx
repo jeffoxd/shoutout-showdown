@@ -10,7 +10,7 @@ export default function Page() {
     { route: "history-quiz", src: "/images/history_quiz.png" },
   ];
   return (
-    <div className="grid grid-cols-2 pt-48">
+    <div className="grid grid-cols-2 pt-24">
       {quizzes.map((quiz, i) => {
         return (
           <Card

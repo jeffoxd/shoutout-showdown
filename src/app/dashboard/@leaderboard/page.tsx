@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className="flex flex-row gap-x-48 my-16 mx-16">
+    <div className="flex flex-row gap-x-24 my-8 mx-8">
       <Image
         src="/images/monthly_rankings.png"
         alt="monthly rankings"

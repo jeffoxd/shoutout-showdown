@@ -10,8 +10,10 @@ export default function Card({ src, onClick, className }: Props) {
   const figureClassName = src ? "" : "bg-[#4E66A8]";
   return (
     <button className={`card image-full ${className}`} onClick={onClick}>
-      <figure className={figureClassName}>
-        {src && <Image src={src} alt="card" width={640} height={480} />}
+      <figure>
+        <div className={figureClassName}>
+          {src && <Image src={src} alt="card" width={360} height={240} />}
+        </div>
       </figure>
     </button>
   );

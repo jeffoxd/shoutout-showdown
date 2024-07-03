@@ -14,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body data-theme="light" className={zysol.className}>
+      <body
+        data-theme="light"
+        className={`overflow-visible ${zysol.className}`}
+      >
         {children}
       </body>
     </html>

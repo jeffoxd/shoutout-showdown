@@ -12,7 +12,7 @@ export default function Header({ className }: Props) {
       <nav>
         <div className="navbar h-32 bg-blue-300">
           <div className="flex-1 ml-8">
-            <h1 className="text-6xl text-white">shoutout showdown!</h1>
+            <h1 className="text-5xl text-white">shoutout showdown!</h1>
           </div>
           <div className="flex-none gap-2">
             <div className="form-control">

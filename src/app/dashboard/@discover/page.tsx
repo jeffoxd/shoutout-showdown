@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <div className="grid grid-cols-3 gap-y-8">
       <Card
-        className="w-[480px] h-64"
+        className="w-[240px] h-32"
         src="/images/education_website_presentation_thumbnail.png"
         onClick={() =>
           //@ts-ignore
@@ -29,7 +29,7 @@ export default function Page() {
       {[...Array.from(Array(8).keys())].map((num, i) => (
         <Card
           key={`discovery-${i}`}
-          className="w-[480px] h-64"
+          className="w-[240px] h-32"
           onClick={() => {}}
         />
       ))}

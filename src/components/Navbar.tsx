@@ -32,8 +32,8 @@ export default function Navbar({ className, currPage, setCurrPage }: Props) {
                       className="bg-[#4E66A8]"
                       src={pagesActiveImages[i]}
                       alt="pages images"
-                      width={150}
-                      height={150}
+                      width={125}
+                      height={125}
                     />
                   </button>
                 </li>
@@ -45,8 +45,8 @@ export default function Navbar({ className, currPage, setCurrPage }: Props) {
                     <Image
                       src={pagesImages[i]}
                       alt="pages images"
-                      width={150}
-                      height={150}
+                      width={125}
+                      height={125}
                     />
                   </button>
                 </li>
@@ -58,8 +58,8 @@ export default function Navbar({ className, currPage, setCurrPage }: Props) {
           src="/images/help_button.png"
           alt="help button"
           className="flex-none"
-          width={100}
-          height={100}
+          width={80}
+          height={80}
         />
       </div>
     </ul>

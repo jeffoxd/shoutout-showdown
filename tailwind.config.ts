@@ -15,11 +15,12 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       width: {
-        big: "576px",
+        big: "480px",
       },
     },
   },
   plugins: [daisyui],
   daiyui: { themes: ["light"] },
+  safelist: ["bg-[#4E66A8]"],
 };
 export default config;
