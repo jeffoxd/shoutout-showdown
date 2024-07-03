@@ -9,8 +9,12 @@ export default function Page() {
     { route: "biology-quiz", src: "/images/biology_quiz.png" },
     { route: "history-quiz", src: "/images/history_quiz.png" },
   ];
+  const inActiveQuizzes = [
+    "/images/chemistry_quiz.png",
+    "/images/herbology_quiz.png",
+  ];
   return (
-    <div className="grid grid-cols-2 pt-24">
+    <div className="grid grid-cols-2 pt-12 gap-y-4">
       {quizzes.map((quiz, i) => {
         return (
           <Card
@@ -21,6 +25,17 @@ export default function Page() {
             onClick={() => {
               router.push(`/waiting-room?quiz=${quiz.route}`);
             }}
+          />
+        );
+      })}
+      {inActiveQuizzes.map((quiz, i) => {
+        return (
+          <Card
+            key={`quizzes-${i}`}
+            src={quiz}
+            width={420}
+            height={380}
+            onClick={() => {}}
           />
         );
       })}
