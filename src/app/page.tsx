@@ -1,8 +1,30 @@
+"use client";
+
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { kollektif, zysolRound } from "./font";
-import Link from "next/link";
 
 export default function Home() {
+  const router = useRouter();
+  const loginAsGuestOnClick = (event: React.FormEvent) => {
+    event.preventDefault();
+    fetch(`${process.env.SERVER_HOST}/create-guest`, {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      // body: JSON.stringify({ keyword: 'menaiala' }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+    router.push("/dashboard");
+  };
+
   return (
     <div>
       <header>
@@ -32,11 +54,12 @@ export default function Home() {
           height={500}
         />
         <div className={`flex flex-col gap-4 pb-16 ${kollektif.className}`}>
-          <Link href="/dashboard">
-            <button className="btn bg-orange-500 text-white border-none text-5xl w-big h-24 rounded-xl">
-              Log in as Guest
-            </button>
-          </Link>
+          <button
+            className="btn bg-orange-500 text-white border-none text-5xl w-big h-24 rounded-xl"
+            onClick={loginAsGuestOnClick}
+          >
+            Log in as Guest
+          </button>
 
           <button className="btn btn-outline text-white text-5xl w-bi h-24 rounded-xl border-4">
             Sign in

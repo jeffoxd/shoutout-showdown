@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Who was the first President of the United States?",
+    "answers": [
+      { "text": "Abraham Lincoln", "correct": false },
+      { "text": "George Washington", "correct": true },
+      { "text": "Thomas Jefferson", "correct": false },
+      { "text": "John Adams", "correct": false }
+    ]
+  },
+  {
+    "question": "Which ancient civilization built the pyramids?",
+    "answers": [
+      { "text": "Romans", "correct": false },
+      { "text": "Greeks", "correct": false },
+      { "text": "Egyptians", "correct": true },
+      { "text": "Chinese", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is credited with discovering America?",
+    "answers": [
+      { "text": "Marco Polo", "correct": false },
+      { "text": "Christopher Columbus", "correct": true },
+      { "text": "Ferdinand Magellan", "correct": false },
+      { "text": "Leif Erikson", "correct": false }
+    ]
+  },
+  {
+    "question": "What famous ship sank after hitting an iceberg?",
+    "answers": [
+      { "text": "Titanic", "correct": true },
+      { "text": "Lusitania", "correct": false },
+      { "text": "Mayflower", "correct": false },
+      { "text": "Queen Mary", "correct": false }
+    ]
+  },
+  {
+    "question": "What was the name of the first man to walk on the moon?",
+    "answers": [
+      { "text": "Buzz Aldrin", "correct": false },
+      { "text": "Yuri Gagarin", "correct": false },
+      { "text": "John Glenn", "correct": false },
+      { "text": "Neil Armstrong", "correct": true }
+    ]
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "answers": [
+      { "text": "Germany", "correct": false },
+      { "text": "Canada", "correct": false },
+      { "text": "France", "correct": true },
+      { "text": "Italy", "correct": false }
+    ]
+  },
+  {
+    "question": "Who was the famous nurse known as \"The Lady with the Lamp\"?",
+    "answers": [
+      { "text": "Clara Barton", "correct": false },
+      { "text": "Florence Nightingale", "correct": true },
+      { "text": "Marie Curie", "correct": false },
+      { "text": "Susan B. Anthony", "correct": false }
+    ]
+  },
+  {
+    "question": "What was the name of the ship that brought the Pilgrims to America?",
+    "answers": [
+      { "text": "Santa Maria", "correct": false },
+      { "text": "Mayflower", "correct": true },
+      { "text": "Nina", "correct": false },
+      { "text": "Pinta", "correct": false }
+    ]
+  },
+  {
+    "question": "Who was the Queen of England when the Spanish Armada tried to invade?",
+    "answers": [
+      { "text": "Queen Victoria", "correct": false },
+      { "text": "Queen Elizabeth I", "correct": true },
+      { "text": "Queen Mary I", "correct": false },
+      { "text": "Queen Anne", "correct": false }
+    ]
+  },
+  {
+    "question": "What wall was built in Germany to divide East and West Berlin?",
+    "answers": [
+      { "text": "The Berlin Wall", "correct": true },
+      { "text": "The Great Wall", "correct": false },
+      { "text": "The Iron Curtain", "correct": false },
+      { "text": "The Wall of China", "correct": false }
+    ]
+  }
+]

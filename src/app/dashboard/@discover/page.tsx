@@ -9,6 +9,7 @@ export default function Page() {
         className="w-[480px] h-64"
         src="/images/education_website_presentation_thumbnail.png"
         onClick={() =>
+          //@ts-ignore
           document.getElementById("educational_video_modal").showModal()
         }
       />

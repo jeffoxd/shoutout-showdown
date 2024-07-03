@@ -17,7 +17,7 @@ export default function Page() {
             key={`quizzes-${i}`}
             src={quiz.src}
             onClick={() => {
-              router.push(`/waiting-room?=${quiz.route}`);
+              router.push(`/waiting-room?quiz=${quiz.route}`);
             }}
           />
         );

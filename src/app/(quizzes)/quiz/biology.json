@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the main organ responsible for pumping blood in our body?",
+    "answers": [
+      { "text": "Brain", "correct": false },
+      { "text": "Lungs", "correct": false },
+      { "text": "Heart", "correct": true },
+      { "text": "Stomach", "correct": false }
+    ]
+  },
+  {
+    "question": "What do we call the tiny living things that can only be seen with a microscope?",
+    "answers": [
+      { "text": "Plants", "correct": false },
+      { "text": "Animals", "correct": false },
+      { "text": "Bacteria", "correct": true },
+      { "text": "Insects", "correct": false }
+    ]
+  },
+  {
+    "question": "Which part of a plant makes food using sunlight?",
+    "answers": [
+      { "text": "Roots", "correct": false },
+      { "text": "Stem", "correct": false },
+      { "text": "Leaves", "correct": true },
+      { "text": "Flowers", "correct": false }
+    ]
+  },
+  {
+    "question": "Which animal can live both in water and on land?",
+    "answers": [
+      { "text": "Fish", "correct": false },
+      { "text": "Dolphin", "correct": false },
+      { "text": "Mudskippers", "correct": false },
+      { "text": "Frog", "correct": true }
+    ]
+  },
+  {
+    "question": "What do we call animals that eat both plants and meat?",
+    "answers": [
+      { "text": "Herbivores", "correct": false },
+      { "text": "Carnivores", "correct": false },
+      { "text": "Omnivores", "correct": true },
+      { "text": "Insectivores", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the hard outer covering on insects called?",
+    "answers": [
+      { "text": "Fur", "correct": false },
+      { "text": "Shell", "correct": true },
+      { "text": "Feathers", "correct": false },
+      { "text": "Scales", "correct": false }
+    ]
+  },
+  {
+    "question": "Which sense helps us to taste food?",
+    "answers": [
+      { "text": "Smell", "correct": false },
+      { "text": "Sight", "correct": false },
+      { "text": "Hearing", "correct": false },
+      { "text": "Taste", "correct": true }
+    ]
+  },
+  {
+    "question": "Where do birds lay their eggs?",
+    "answers": [
+      { "text": "In dams", "correct": false },
+      { "text": "In nests", "correct": true },
+      { "text": "Underground", "correct": false },
+      { "text": "In other animals", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest organ of our body?",
+    "answers": [
+      { "text": "Heart", "correct": false },
+      { "text": "Lungs", "correct": false },
+      { "text": "Skin", "correct": true },
+      { "text": "Liver", "correct": false }
+    ]
+  },
+  {
+    "question": "What is keratin used for in the human body?",
+    "answers": [
+      { "text": "Skin", "correct": false },
+      { "text": "Hair", "correct": false },
+      { "text": "Nails", "correct": false },
+      { "text": "All of the above", "correct": true }
+    ]
+  }
+]
