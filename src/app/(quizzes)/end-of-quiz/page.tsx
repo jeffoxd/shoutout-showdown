@@ -6,14 +6,24 @@ import { kollektifBold } from "@/app/font";
 export default function Page() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const score = searchParams.get("score");
+  const score = Number(searchParams.get("score"));
+  let message: string;
+  if (score < 5) {
+    message = "Better luck next time!";
+  } else if (score < 7) {
+    message = "Good!";
+  } else if (score < 9) {
+    message = "Great!";
+  } else {
+    message = "Yippie!";
+  }
   return (
     <>
       <div className="flex flex-col justify-center items-center">
-        <span className="text-white text-7xl mt-12">Yippie!</span>
+        <span className="text-white text-7xl mt-12">{message}</span>
         {score && (
           <span className="text-white text-5xl mt-16 mb-48">
-            Your score is {score}
+            Your score is {score.toString()}
           </span>
         )}
         <button

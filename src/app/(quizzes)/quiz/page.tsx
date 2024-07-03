@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 import Biology from "./biology.json";
@@ -24,6 +24,9 @@ export default function Page() {
   const displayTimer = timer < 10 ? `0${timer}` : timer;
   const answersColor = ["#FB735F", "#C6CF45", "#F8B02D", "#2FA896"];
 
+  const didMount = useRef(false);
+  const gotoNextQuestion = useRef(false);
+
   const toNextQuestion = () => {
     setTimer(timerInitial);
     if (question >= 10) {
@@ -31,11 +34,12 @@ export default function Page() {
     } else {
       router.push(`quiz?type=${type}&question=${question + 1}`);
     }
+    gotoNextQuestion.current = false;
   };
   const correctOnClick = () => {
     setScore((score) => score + 1);
     alert("Correct!");
-    toNextQuestion();
+    gotoNextQuestion.current = true;
   };
   const wrongOnClick = () => {
     alert("Wrong!");
@@ -62,6 +66,18 @@ export default function Page() {
       window.clearInterval(interval);
     };
   });
+
+  useEffect(() => {
+    // Return early, if this is the first render:
+    if (!didMount.current) {
+      didMount.current = true;
+      return;
+    }
+    console.log(gotoNextQuestion.current);
+    if (gotoNextQuestion.current === true) {
+      toNextQuestion();
+    }
+  }, [score]);
 
   return (
     <>
