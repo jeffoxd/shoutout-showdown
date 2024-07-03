@@ -10,14 +10,14 @@ export default function Page() {
   return (
     <>
       <div className="flex flex-col justify-center items-center">
-        <span className="text-white text-8xl mt-48">Yippie!</span>
+        <span className="text-white text-7xl mt-12">Yippie!</span>
         {score && (
-          <span className="text-white text-9xl mt-16 mb-48">
+          <span className="text-white text-5xl mt-16 mb-48">
             Your score is {score}
           </span>
         )}
         <button
-          className={`btn btn-outline w-big h-36 border-white text-white text-5xl ${kollektifBold.className}`}
+          className={`btn btn-outline btn-wide h-24 border-white text-white text-2xl ${kollektifBold.className}`}
           onClick={() => router.push("/dashboard")}
         >
           Return to dashboard
