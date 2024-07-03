@@ -16,6 +16,8 @@ export default function Page() {
           <Card
             key={`quizzes-${i}`}
             src={quiz.src}
+            width={420}
+            height={380}
             onClick={() => {
               router.push(`/waiting-room?quiz=${quiz.route}`);
             }}

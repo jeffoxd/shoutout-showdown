@@ -22,6 +22,7 @@ export default function Page() {
   const [question, setQuestion] = useState(1);
   const [score, setScore] = useState(0);
   const displayTimer = timer < 10 ? `0${timer}` : timer;
+  const answersColor = ["#FB735F", "#C6CF45", "#F8B02D", "#2FA896"];
 
   const toNextQuestion = () => {
     setTimer(timerInitial);
@@ -100,7 +101,7 @@ export default function Page() {
                   if (i == 0 || i == 1) {
                     return (
                       <button
-                        className="btn w-2/6 h-24 text-5xl"
+                        className={`btn w-2/6 h-24 text-4xl bg-[${answersColor[i]}] border-none text-white`}
                         key={`${answer.text}-${i}`}
                         onClick={onClick}
                       >
@@ -118,7 +119,7 @@ export default function Page() {
                   if (i == 2 || i == 3) {
                     return (
                       <button
-                        className="btn w-2/6 h-24 text-5xl"
+                        className={`btn w-2/6 h-24 text-4xl bg-[${answersColor[i]}] border-none text-white`}
                         key={`${answer.text}-${i}`}
                         onClick={onClick}
                       >

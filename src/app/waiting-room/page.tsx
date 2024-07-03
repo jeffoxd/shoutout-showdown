@@ -16,7 +16,12 @@ export default function Page() {
       <div className="grid grid-cols-2 justify-center items-center p-8 pt-12">
         <div className="flex-1 flex-col carousel carousel-vertical bg-[#4E66A8] rounded-box h-96 justify-center items-center border-t-[32px] w-4/5 border-t-[#FB735F]">
           <div className="carousel-item h-full">
-            <Card className="w-big" onClick={() => {}} />
+            <Card
+              width={480}
+              height={360}
+              className="w-big"
+              onClick={() => {}}
+            />
           </div>
         </div>
         <div className="flex flex-col gap-4">

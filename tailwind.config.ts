@@ -21,6 +21,6 @@ const config: Config = {
   },
   plugins: [daisyui],
   daiyui: { themes: ["light"] },
-  safelist: ["bg-[#4E66A8]"],
+  safelist: ["bg-[#4E66A8]", "bg-[#2FA896]"],
 };
 export default config;

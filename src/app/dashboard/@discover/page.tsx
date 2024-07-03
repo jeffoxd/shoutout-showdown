@@ -3,10 +3,13 @@
 import Card from "@/components/Card";
 
 export default function Page() {
+  const cardWidth = 360;
+  const heightWidth = 240;
   return (
     <div className="grid grid-cols-3 gap-y-8">
       <Card
-        className="w-[240px] h-32"
+        width={cardWidth}
+        height={heightWidth}
         src="/images/education_website_presentation_thumbnail.png"
         onClick={() =>
           //@ts-ignore
@@ -28,8 +31,10 @@ export default function Page() {
       </dialog>
       {[...Array.from(Array(8).keys())].map((num, i) => (
         <Card
+          width={cardWidth}
+          height={heightWidth}
           key={`discovery-${i}`}
-          className="w-[240px] h-32"
+          className=""
           onClick={() => {}}
         />
       ))}
