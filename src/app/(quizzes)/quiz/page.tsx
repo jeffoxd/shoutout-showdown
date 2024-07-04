@@ -17,7 +17,7 @@ export default function Page() {
     ? 1
     : Number(searchParams.get("question"));
 
-  const timerInitial = 60;
+  const timerInitial = 10;
   const [timer, setTimer] = useState(timerInitial);
   const [question, setQuestion] = useState(1);
   const [score, setScore] = useState(0);
