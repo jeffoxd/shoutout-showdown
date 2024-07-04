@@ -21,7 +21,7 @@ export default function Page() {
     <>
       <div className="flex flex-col justify-center items-center">
         <span className="text-white text-7xl mt-12">{message}</span>
-        {score && (
+        {score != undefined && (
           <span className="text-white text-5xl mt-16 mb-48">
             Your score is {score.toString()}
           </span>
