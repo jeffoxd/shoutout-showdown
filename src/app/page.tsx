@@ -31,7 +31,7 @@ export default function Home() {
         <div className="navbar bg-base-100">
           <div className="navbar-start"></div>
           <div className="navbar-center">
-            <a className="btn btn-ghost text-6xl text-orange-500">
+            <a className="btn btn-ghost text-6xl text-[#FB735F]">
               Shoutout Showdown!
             </a>
           </div>
@@ -55,7 +55,7 @@ export default function Home() {
         />
         <div className={`flex flex-col gap-4 pb-16 ${kollektif.className}`}>
           <button
-            className="btn bg-orange-500 text-white border-none text-5xl w-big h-24 rounded-xl"
+            className="btn bg-[#FB735F] text-white border-none text-5xl w-big h-24 rounded-xl"
             onClick={loginAsGuestOnClick}
           >
             Log in as Guest
