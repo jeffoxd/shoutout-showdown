@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shoutout Showdown
 
-## Getting Started
+This is a [Next.js](https://nextjs.org/) project commissioned by [Kiha](https://www.instagram.com/kihakiha_/), it is an educational website that allows interactive learning.
+Art assets and idea done by her, website & code by me! Do note the website is non-responsive (non-mobile friendly), and it's best used on a 1980x1080 resolution laptop, due to time constraints.
 
-First, run the development server:
+## Showcase
+
+Login page (only login as guest works)
+![Login page](login.png)
+Discovery page (only a video)
+![Discovery page](discovery.png)
+The video is watchable
+![Discovery page video](discovery_video.png)
+Quizzes page (only Biology and History is available)
+![Quizzes page](quizzes.png)
+Quiz with timer
+![Quiz question](quiz_question.png)
+Quiz score after 10 questions
+![Quiz score](quiz_score.png)
+Leaderboard page (non-functional)
+![Leaderboard page](leaderboard.png)
+
+## What works
+
+1. Discovery page: Meant to have educational videos to watch, it currently has a video to play.
+2. Quizzes: Only Biology and History quizzes are available, each quiz has 10 questions, 10 seconds each.
+
+Others are just there for reference, this project is merely a proof of concept.
+
+## Running on your machine
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Credits
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Art and idea by [Kiha](https://www.instagram.com/kihakiha_/), big thanks to her commissioning me and supplying me with the website's art and ideas!
