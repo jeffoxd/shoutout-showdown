@@ -6,19 +6,19 @@ Art assets and idea done by her, website & code by me! It has custom fonts too. 
 ## Showcase
 
 Login page (only login as guest works)
-![Login page](login.png)
+![Login page](docs/login.png)
 Discovery page (only a video)
-![Discovery page](discovery.png)
+![Discovery page](docs/discovery.png)
 The video is watchable
-![Discovery page video](discovery_video.png)
+![Discovery page video](docs/discovery_video.png)
 Quizzes page (only Biology and History is available)
-![Quizzes page](quizzes.png)
+![Quizzes page](docs/quizzes.png)
 Quiz with timer
-![Quiz question](quiz_question.png)
+![Quiz question](docs/quiz_question.png)
 Quiz score after 10 questions
-![Quiz score](quiz_score.png)
+![Quiz score](docs/quiz_score.png)
 Leaderboard page (non-functional)
-![Leaderboard page](leaderboard.png)
+![Leaderboard page](docs/leaderboard.png)
 
 ## What works
 
