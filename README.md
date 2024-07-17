@@ -1,7 +1,7 @@
 # Shoutout Showdown
 
 This is a [Next.js](https://nextjs.org/) project commissioned by [Kiha](https://www.instagram.com/kihakiha_/), it is an educational website that allows interactive learning.
-Art assets and idea done by her, website & code by me! Do note the website is non-responsive (non-mobile friendly), and it's best used on a 1980x1080 resolution laptop, due to time constraints.
+Art assets and idea done by her, website & code by me! It has custom fonts too. Do note the website is non-responsive (non-mobile friendly), and it's best used on a 1980x1080 resolution laptop, due to time constraints.
 
 ## Showcase
 
