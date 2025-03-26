@@ -69,7 +69,7 @@ export default function Home() {
         <div
           className={`flex flex-col text-white gap-4 pb-24 text-3xl ${zysolRound.className}`}
         >
-          <span>Customize your own quizzes at www.Showdown!</span>
+          <span>Customize your own quizzes!</span>
           <div className="flex flex-row justify-center items-center gap-2 text-xl">
             <a>Terms</a>
             <span>|</span>
